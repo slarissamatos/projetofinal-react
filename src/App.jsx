@@ -8,6 +8,7 @@ import SobrePretaLabPage from "./pages/SobrePage/SobrePretaLabPage";
 import PokemonPage from "./pages/PokemonPage";
 import EnderecoPage from "./pages/pages/EnderecoPage";
 import EstudantesPage from "./pages/InicioPage";
+import InicioPage from "./pages/InicioPage";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         </Routes>
       </div>
 
-      <Rodape mensagem="Redes Sociais" />
+      <Rodape mensagem="Feito com amor, Laris!" />
     </>
   );
 }
