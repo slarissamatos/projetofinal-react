@@ -8,7 +8,6 @@ import SobrePretaLabPage from "./pages/SobrePage/SobrePretaLabPage";
 import PokemonPage from "./pages/PokemonPage";
 import EnderecoPage from "./pages/pages/EnderecoPage";
 import EstudantesPage from "./pages/InicioPage";
-import InicioPage from "./pages/InicioPage";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
 
       <div style={{ marginBottom: "130px" }}>
         <Routes>
-          <Route path="/" element={<SobreMimPage />} />
+          <Route path="/" element={<SobrePage />} />
           <Route path="/estudantes" element={<EstudantesPage />} />
           <Route path="/pokemons" element={<PokemonPage />} />
           <Route path="/endereco" element={<EnderecoPage />} />

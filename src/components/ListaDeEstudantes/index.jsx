@@ -1,3 +1,4 @@
+import React from "react";
 import * as CardEstudante from "../cardEstudante";
 import "./style.css";
 

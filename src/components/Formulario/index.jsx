@@ -9,7 +9,7 @@ const Formulario = () => {
         <CaixaDeTexto label="Nome" placeholder="Digite o seu nome..."/>
         <CaixaDeTexto label="Cargo" placeholder="Digite o seu cargo..."/>
         <CaixaDeTexto label="Imagem" placeholder="Digite o endereço da sua imagem..." />
-        <Selection label="Time" listaCargos={null}/>
+       {/* <Selection label="Time" listaCargos={null}/> */}
         </>
     );
 };
