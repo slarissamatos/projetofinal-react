@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./style.css";
 
 const Botao = ({ texto, acao }) => {
   return (

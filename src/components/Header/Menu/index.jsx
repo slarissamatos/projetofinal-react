@@ -6,27 +6,30 @@ const Menu = () => {
     <nav>
       <ul className="menu">
         <li>
-          <Link className="menu-item" to="/">Inicio</Link>
+          <Link className="menu-item" to="/">
+            Página inicial
+          </Link>
         </li>
-
+       
         <li>
-          <Link className="menu-item" to="/contador">Contador</Link>
+          <Link className="menu-item" to="/endereco">
+            Endereço
+          </Link>
         </li>
-        
         <li>
-          <Link className="menu-item" to="/endereco">Endereço</Link>
+          <Link className="menu-item" to="/estudantes">
+            Estudantes
+          </Link>
         </li>
-        
         <li>
-          <Link className="menu-item" to="/estudantes">Estudantes</Link>
+          <Link className="menu-item" to="/pokemons">
+            Pokemons
+          </Link>
         </li>
-        
         <li>
-          <Link className="menu-item" to="/pokemons">Pokemons</Link>
-        </li>
-        
-        <li>
-          <Link className="menu-item" to="/sobre">Sobre</Link>
+          <Link className="menu-item" to="/sobre">
+            Sobre
+          </Link>
         </li>
       </ul>
     </nav>

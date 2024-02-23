@@ -1,5 +1,4 @@
-import React from "react";
-import * as CardEstudante from "../cardEstudante";
+import CardEstudante from "../cardEstudante";
 import "./style.css";
 
 const ListaDeEstudantes = ({ lista }) => {

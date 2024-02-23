@@ -1,26 +1,39 @@
-.center {
+styles.css
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  height: calc(100vh - 426px)
+  height: 100vh;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 100%; 
+  width: 200px; 
+  height: 2%; 
+  margin-bottom: 20px; 
 }
 
 .link {
   display: flex;
   width: 50vw;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   text-decoration: none;
   height: calc(100vh - 500px);
   margin: 50px;
 }
 
-.link:last-child {
-  border-radius: 18px; 
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-  background-color: #04a1df
+.link:first-child {
+  background-color: #eb4951
+}
 
+.link:last-child {
+  background-color: #04a1df
 }
 
 .link p {

@@ -1,7 +1,5 @@
 import "./style.css";
 
-
-
 const CardEstudante = ({
   fotoUrl,
   nome,
